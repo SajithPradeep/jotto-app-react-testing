@@ -37,6 +37,6 @@ test("renders non-empty congrats message when the `success` prop is true.", () =
 });
 
 test("does not throw warning with expected props", () => {
-  const expectedProps = { success: "w" };
+  const expectedProps = { success: true };
   CheckProps(Congrats, expectedProps);
 });
