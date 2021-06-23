@@ -3,7 +3,7 @@ import Congrats from "./Congrats";
 
 function App() {
   return (
-    <div className="container alignVertical">
+    <div className="container alignVertical" data-test="component-app">
       <h1>Jotto App</h1>
       <div className="divider"></div>
       <Congrats
